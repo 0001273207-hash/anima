@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ânima - Desenvolvimento_Psicologia</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root {
+            --primary: #2C5E62;
+            --secondary: #D9A05B;
+            --bg-light: #F8F9FA;
+            --text: #2B2D42;
+            --white: #FFFFFF;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Montserrat', sans-serif; color: var(--text); background: var(--bg-light); line-height: 1.6; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
+        a { text-decoration: none; color: inherit; }
+
+        .container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+        .section { padding: 60px 0; text-align: center; }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 28px;
+            border-radius: 25px;
+            background: var(--primary);
+            color: var(--white);
+            font-weight: 600;
+            margin-top: 15px;
+        }
+
+        /* HEADER */
+        header { background: var(--white); padding: 20px 0; border-bottom: 1px solid #eee; }
+        .nav { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.4rem; font-weight: bold; color: var(--primary); }
+        .logo span { color: var(--secondary); }
+
+        /* HERO */
+        .hero { padding: 80px 0; text-align: center; }
+        .hero h1 { font-size: 2.5rem; color: var(--primary); margin-bottom: 10px; }
+        .hero p { color: #555; max-width: 600px; margin: 0 auto; }
+
+        /* SERVIÇOS */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-top: 30px; }
+        .card { background: var(--white); padding: 25px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        .card i { font-size: 1.8rem; color: var(--primary); margin-bottom: 10px; }
+
+        /* CONTATO */
+        .contact-info { margin-top: 20px; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+        
+        /* FOOTER */
+        footer { text-align: center; padding: 20px; font-size: 0.85rem; color: #777; background: #fff; margin-top: 40px; }
+
+        /* WHATSAPP */
+        .whatsapp-float {
+            position: fixed; bottom: 20px; right: 20px;
+            width: 50px; height: 50px; background: #25d366; color: #fff;
+            border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            font-size: 24px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <div class="container nav">
+            <a href="#" class="logo">ÂNIMA <span>.</span></a>
+            <span>Psicologia & Desenvolvimento</span>
+        </div>
+    </header>
+
+    <!-- BANNER PRINCIPAL -->
+    <section class="hero container">
+        <h1>Cuidando da sua saúde mental</h1>
+        <p>Atendimento psicológico humanizado e com embasamento científico para o seu desenvolvimento integral.</p>
+        <a href="https://wa.me/5500000000000" class="btn" target="_blank">Agendar Consulta</a>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="section container">
+        <h2>Como posso te ajudar?</h2>
+        <div class
